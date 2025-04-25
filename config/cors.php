@@ -15,15 +15,15 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie'],// Áp dụng CORS cho các route API
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['*'],// Cho phép tất cả phương thức (GET, POST, v.v.)
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['*'],// Địa chỉ của front-end
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headers' => ['*'],
+    'allowed_headers' => ['*'],// Cho phép tất cả header
 
     'exposed_headers' => [],
 
